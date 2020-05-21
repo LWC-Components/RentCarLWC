@@ -1,0 +1,155 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Lightning Training",
+            "Contacts": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef1"
+                        },
+                        "LastName": "Naredla",
+                        "FirstName": "Devi Pradeep",
+                        "Salutation": "Mr.",
+                        "Name": "Devi Pradeep Naredla"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef2"
+                        },
+                        "LastName": "Choudhari",
+                        "FirstName": "Manish",
+                        "Salutation": "Mr.",
+                        "Name": "Manish Choudhari"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef3"
+                        },
+                        "LastName": "Murari",
+                        "FirstName": "Karthik",
+                        "Salutation": "Mr.",
+                        "Name": "Karthik Murari"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef4"
+                        },
+                        "LastName": "Choudhary",
+                        "FirstName": "Sunil",
+                        "Salutation": "Mr.",
+                        "Name": "Sunil Choudhary"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef5"
+                        },
+                        "LastName": "Sivaswamy",
+                        "FirstName": "Velavan",
+                        "Salutation": "Mr.",
+                        "Name": "Velavan Sivaswamy"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef6"
+                        },
+                        "LastName": "Vardhan",
+                        "FirstName": "Anand",
+                        "Salutation": "Mr.",
+                        "Name": "Anand Vardhan"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef7"
+                        },
+                        "LastName": "Badhani",
+                        "FirstName": "Ankit",
+                        "Salutation": "Mr.",
+                        "Name": "Ankit Badhani"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef8"
+                        },
+                        "LastName": "Bhatia",
+                        "FirstName": "Dhruv",
+                        "Salutation": "Mr.",
+                        "Name": "Dhruv Bhatia"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef9"
+                        },
+                        "LastName": "Nuvuluri",
+                        "FirstName": "Sudhakar",
+                        "Salutation": "Mr.",
+                        "Name": "Sudhakar Nuvuluri"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef10"
+                        },
+                        "LastName": "Sharma",
+                        "FirstName": "Ashish",
+                        "Salutation": "Mr.",
+                        "Name": "Ashish Sharma"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef11"
+                        },
+                        "LastName": "Kumar",
+                        "FirstName": "Sharath",
+                        "Salutation": "Mr.",
+                        "Name": "Sharath Kumar"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef12"
+                        },
+                        "LastName": "Choudhary",
+                        "FirstName": "Shonu",
+                        "Salutation": "Ms.",
+                        "Name": "Shonu Choudhary"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef13"
+                        },
+                        "LastName": "Kaur",
+                        "FirstName": "Prabhdeep",
+                        "Salutation": "Ms.",
+                        "Name": "Prabhdeep Kaur"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef14"
+                        },
+                        "LastName": "Monga",
+                        "FirstName": "Priyanka",
+                        "Salutation": "Ms.",
+                        "Name": "Priyanka Monga"
+                    }
+                ]
+            }
+        }
+    ]
+}

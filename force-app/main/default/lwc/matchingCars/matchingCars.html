@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Matching cars" icon-name="utility:trailhead">
+        <template if:true={cars}>
+            <lightning-layout>
+                <lightning-layout-item padding="around-small">
+                    <template for:each={cars} for:item="car">
+                        <c-car-tile car={car} key={car.Id}></c-car-tile>
+                    </template>
+                </lightning-layout-item>
+            </lightning-layout>
+        </template>
+</lightning-card>
+</template>

@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Search Your Car" icon-name="utility:search" >
+        <div class="slds-align_absolute-center">
+            <template if:true={selectOptions}>
+                <lightning-combobox name="carType" placeholder="Select type of car" options={selectOptions}
+                    onchange={handleChangeCarType}>
+                </lightning-combobox>
+                <lightning-button variant="brand" label="New" title="New" onclick={navigateToCarType}
+                    class="slds-m-left_small slds-m-top_large"></lightning-button>
+                <!-- variant in (Base, Neutral, Brand, Brand Outline, Destructive, Destructive Text, Success)-->
+            </template>
+        </div>
+    </lightning-card>  
+    <br>  
+    <c-matching-cars selected-type-car={carType}></c-matching-cars>
+</template>

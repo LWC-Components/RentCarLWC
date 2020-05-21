@@ -1,0 +1,27 @@
+<template>
+    <template if:true={car}>
+        <lightning-tabset active-tab-value={tabActif} >
+            <lightning-tab label="Car detail">
+                <lightning-card title={car.Name} icon-name="custom:custom6">
+                    <lightning-button variant="Neutral"  label="Full details" onclick={openDetail} slot="actions"></lightning-button>
+                    <div class="slds-var-m-left_medium slds-float_left">
+                        <label class="label">Owner Name: </label> <p> {car.Contact__r.Name}</p>
+                        <label class="label">Type: </label> <p> {car.Car_Type__r.Name}</p>
+                        <label class="label">Build Year: </label> <p> {car.Build_Year__c}</p>
+                        <label class="label">Per Day Net: </label> <p> {car.Per_Day_Rent__c}</p>
+                        <label class="label">Mileage: </label> <p> {car.Mileage__c}</p>
+                    </div>    
+                    <img src={car.Picture__c} width="200px" style="float:right" class="slds-m-right_medium"/>
+                    <div style="clear: both;"></div>
+                </lightning-card>
+            </lightning-tab> 
+            <lightning-tab label="Add car Experience" title="Add car Experience">
+                <c-car-experience car-id={car.Id} onexp={handelExpAdded}></c-car-experience>
+            </lightning-tab>
+            <lightning-tab label="Item Three" value="Item Three">
+                <c-detail-experience></c-detail-experience>
+            </lightning-tab>
+        </lightning-tabset>
+    </template>
+
+</template>
