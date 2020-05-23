@@ -1,3 +1,15 @@
 <template>
-    Item Three
+    <template if:true={experiences}>
+        <template for:each={experiences} for:item="experience">
+            <div class="slds-m-horizontal_medium" key={experience.Id}>
+                <img src={experience.CreatedBy.SmallPhotoUrl} />
+                <a href="" onclick={handleOnClick}>{experience.CreatedBy.Name}</a>
+                <span>&nbsp;-&nbsp;{experience.CompanyName}</span>
+                <lightning-formatted-time value={experience.CreatedDate}></lightning-formatted-time>
+                <p>{experience.Name}</p>
+            </div>
+        </template>
+
+    </template>
+
 </template>

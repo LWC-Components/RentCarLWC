@@ -7,3 +7,6 @@ declare module "@salesforce/apex/CarType.allMatchingCars" {
 declare module "@salesforce/apex/CarType.creationExprerience" {
   export default function creationExprerience(param: {carId: any, title: any, experience: any}): Promise<any>;
 }
+declare module "@salesforce/apex/CarType.ViewExperience" {
+  export default function ViewExperience(param: {carId: any}): Promise<any>;
+}

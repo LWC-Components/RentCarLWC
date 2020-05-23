@@ -9,18 +9,25 @@ export default class CarExperience extends LightningElement {
     experience;
     addExperienceHandler() {
         creationExprerience({ carId: this.carId, title: this.title, experience: this.experience })
+            .then(result => {
+                console.log('reuslt of insertion = '+ result);
+            })
+            .then(()=>{
+                const selectedEvent = new CustomEvent("exp");
+                this.dispatchEvent(selectedEvent, { detail: this.carId });
+            })
             .catch(error => {
                 console.log('il y une errur dans apex ', error);
             });
-        const selectedEvent = new CustomEvent("exp");
-        console.log('element dispatched');
-        // Dispatches the event.
-        this.dispatchEvent(selectedEvent);
+       
+        
+
         this.dispatchEvent(new ShowToastEvent({
             title: 'yopaa',
             message: 'Your experience was addes successfully',
             variant: 'success'
         }));
+        
     }
 
     handleNameChange(event) {

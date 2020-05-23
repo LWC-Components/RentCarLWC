@@ -690,9 +690,9 @@
             "sourcePath": "c:\\Users\\mustapha.elmadi\\Desktop\\Lwc Projects\\Rent a car project by mus",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1589248701234,
-            "changeTime": 1589248701234,
-            "contentHash": "1ea9753083565c66ab379b770b067a503e1e0ecc",
+            "modifiedTime": 1590026433726,
+            "changeTime": 1590026433726,
+            "contentHash": "ff7b715eedd705acbef1f8648646ea1916376830",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": true
@@ -761,10 +761,10 @@
         {
             "sourcePath": "c:\\Users\\mustapha.elmadi\\Desktop\\Lwc Projects\\Rent a car project by mus\\force-app\\main\\default\\classes\\CarType.cls",
             "isDirectory": false,
-            "size": 880,
-            "modifiedTime": 1589758083383,
-            "changeTime": 1589758083383,
-            "contentHash": "dd64580c24374e0899a9dc9740f351ca6a4b1dc3",
+            "size": 1178,
+            "modifiedTime": 1590192340882,
+            "changeTime": 1590192340882,
+            "contentHash": "5e3d46eb4a3db68d9b0d9bb2531eb3e8e2b90834",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -1229,10 +1229,10 @@
         {
             "sourcePath": "c:\\Users\\mustapha.elmadi\\Desktop\\Lwc Projects\\Rent a car project by mus\\force-app\\main\\default\\lwc\\detailCar\\detailCar.html",
             "isDirectory": false,
-            "size": 1566,
-            "modifiedTime": 1589765250169,
-            "changeTime": 1589765250169,
-            "contentHash": "1303b971fe2b718dfc6a4f110bfda2917808f16f",
+            "size": 1597,
+            "modifiedTime": 1590277501298,
+            "changeTime": 1590277501298,
+            "contentHash": "5396c9f74ef13f947a75d41566a358d06816f207",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1242,10 +1242,10 @@
         {
             "sourcePath": "c:\\Users\\mustapha.elmadi\\Desktop\\Lwc Projects\\Rent a car project by mus\\force-app\\main\\default\\lwc\\detailCar\\detailCar.js",
             "isDirectory": false,
-            "size": 1360,
-            "modifiedTime": 1589766096650,
-            "changeTime": 1589766096650,
-            "contentHash": "fe6b38d48942f8ecdda2b27dfd4cb0ce1ca1d7bc",
+            "size": 1497,
+            "modifiedTime": 1590277049587,
+            "changeTime": 1590277049587,
+            "contentHash": "13f8434180befc4bf46d92d22880d872c41e576c",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1320,10 +1320,10 @@
         {
             "sourcePath": "c:\\Users\\mustapha.elmadi\\Desktop\\Lwc Projects\\Rent a car project by mus\\force-app\\main\\default\\lwc\\carTile\\carTile.js",
             "isDirectory": false,
-            "size": 666,
-            "modifiedTime": 1589417225102,
-            "changeTime": 1589417225102,
-            "contentHash": "4823d9cea2165d596a64a11d6d2839a627c7fc6e",
+            "size": 368,
+            "modifiedTime": 1590194957698,
+            "changeTime": 1590194957698,
+            "contentHash": "bac4e4556422a797afb4467cbbbc07c07df32c93",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1396,14 +1396,14 @@
     [
         "c:\\Users\\mustapha.elmadi\\Desktop\\Lwc Projects\\Rent a car project by mus\\force-app\\main\\default\\lwc\\carExperience\\carExperience.js",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\mustapha.elmadi\\Desktop\\Lwc Projects\\Rent a car project by mus\\force-app\\main\\default\\lwc\\carExperience\\carExperience.js",
             "isDirectory": false,
+            "size": 1207,
+            "modifiedTime": 1590277428349,
+            "changeTime": 1590277428349,
+            "contentHash": "042b7ea646ca7d5d5422f1bbd9e0053dff18d5ef",
             "isMetadataFile": false,
-            "size": 1069,
-            "modifiedTime": 1589766229896,
-            "changeTime": 1589766229896,
-            "contentHash": "4500c069fec653eeddca909fd566b6738cd98be5"
+            "state": "u"
         }
     ],
     [
@@ -1435,14 +1435,14 @@
     [
         "c:\\Users\\mustapha.elmadi\\Desktop\\Lwc Projects\\Rent a car project by mus\\force-app\\main\\default\\lwc\\detailExperience\\detailExperience.html",
         {
+            "state": "u",
             "sourcePath": "c:\\Users\\mustapha.elmadi\\Desktop\\Lwc Projects\\Rent a car project by mus\\force-app\\main\\default\\lwc\\detailExperience\\detailExperience.html",
             "isDirectory": false,
-            "size": 37,
-            "modifiedTime": 1589764051597,
-            "changeTime": 1589764051597,
-            "contentHash": "1738aaf94ea51158c3fc215e4b30db1a276bc4e0",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 601,
+            "modifiedTime": 1590277567965,
+            "changeTime": 1590277567965,
+            "contentHash": "24ad17db6d3fef059da1d2b803997474de94fc6d"
         }
     ],
     [
@@ -1450,10 +1450,10 @@
         {
             "sourcePath": "c:\\Users\\mustapha.elmadi\\Desktop\\Lwc Projects\\Rent a car project by mus\\force-app\\main\\default\\lwc\\detailExperience\\detailExperience.js",
             "isDirectory": false,
-            "size": 106,
-            "modifiedTime": 1589764020318,
-            "changeTime": 1589764020318,
-            "contentHash": "09e5b67177703ea949f7479cf4b5c253b07147b7",
+            "size": 583,
+            "modifiedTime": 1590275911906,
+            "changeTime": 1590275911906,
+            "contentHash": "d1bd447869e99478dd91a20ee5ad8f20bc468e66",
             "isMetadataFile": false,
             "state": "u"
         }

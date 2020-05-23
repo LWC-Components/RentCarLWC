@@ -19,11 +19,10 @@ public with sharing class CarType {
     public static void creationExprerience(string carId, string title, string experience){
         insert (new Car_Experience__c(Name=title,car__c=carId, Experience__c =experience));
     }
-
-    public static list<Car_Experience__c>  ViewExperience(){//SmallPhotoUrl, FullPhotoUrl
-        return [Select id,Name,CreatedBy
-                From Car_Experience__c
-                Where Id =: Userinfo.getUserId()];
+    @AuraEnabled(cacheable=true)
+    public static list<Car_Experience__c>  ViewExperience(string carId ){//SmallPhotoUrl, FullPhotoUrl
+        return [SELECT Id, Car__c, CreatedBy.Name,CreatedBy.SmallPhotoUrl, CreatedDate, Name FROM Car_Experience__c
+                Where car__c =:carId ];
     }
     
 }

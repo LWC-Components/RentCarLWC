@@ -18,8 +18,8 @@
             <lightning-tab label="Add car Experience" title="Add car Experience">
                 <c-car-experience car-id={car.Id} onexp={handelExpAdded}></c-car-experience>
             </lightning-tab>
-            <lightning-tab label="Item Three" value="Item Three">
-                <c-detail-experience></c-detail-experience>
+            <lightning-tab label="Experiences" value="Item Three">
+                    <c-detail-experience experiences={experiences}></c-detail-experience>
             </lightning-tab>
         </lightning-tabset>
     </template>
